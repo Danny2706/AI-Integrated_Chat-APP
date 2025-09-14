@@ -2,7 +2,7 @@ import React from "react";
 import { Camera, Loader2, Mail, User, Calendar, Shield } from "lucide-react";
 import { useDispatch, useSelector } from "react-redux";
 import { useState } from "react";
-import { updateProfile } from "../store/slices/authslice";
+import { updateProfile } from "../store/slices/authSlice";
 
 function Profilepage() {
   const { authUser, isUpdatingProfile } = useSelector((state) => state.auth);
