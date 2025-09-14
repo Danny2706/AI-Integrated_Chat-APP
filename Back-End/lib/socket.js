@@ -8,7 +8,7 @@ function initSocket(server) {
       cors: {
     origin: [
       "http://localhost:5173",
-      "https://ai-integrated-hub.onrender.com"
+      "https://ai-integrated-chat-app.vercel.app/"
     ],
     methods: ["GET", "POST"],
     credentials: true,
