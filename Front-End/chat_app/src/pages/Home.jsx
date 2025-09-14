@@ -3,7 +3,7 @@ import { useSelector } from "react-redux";
 import Sidebar from "../Components/Sidebar";
 import ChatContainer from "../Components/ChatContainer";
 import NoChatSelected from "../Components/NoChatSelected";
-import SidebarSkeleton from "../Components/Skeleton/SidebarSkeleton";
+import SidebarSkeleton from "../Components/Skeleton/Sidebarskeleton";
 import MessageSkeleton from "../Components/Skeleton/MessageSkeleton";
 
 function Home() {
