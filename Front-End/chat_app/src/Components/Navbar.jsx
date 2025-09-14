@@ -12,7 +12,7 @@ import {
 } from "lucide-react";
 import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
-import { logout } from "../store/slices/authslice";
+import { logout } from "../store/slices/authSlice";
 
 function Navbar() {
   const { authUser } = useSelector((state) => state.auth);
