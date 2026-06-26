@@ -74,7 +74,7 @@ https://ai-integrated-chat-app-6.onrender.com
 ### Clone Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/ai-chat-app.git
+git clone https://github.com/Danny2706/ai-chat-app.git
 cd ai-chat-app
 ```
 
