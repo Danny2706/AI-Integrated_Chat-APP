@@ -12,7 +12,7 @@ import {
 import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import AuthImagePattern from "../Components/AuthImagePattern";
-import { login } from "../store/slices/authslice";
+import { login } from "../store/slices/authSlice";
 
 function Login() {
   const [showPassword, setShowPassword] = useState(false);

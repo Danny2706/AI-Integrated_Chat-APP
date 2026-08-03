@@ -15,7 +15,7 @@ import {
 import { useDispatch, useSelector } from "react-redux";
 import AuthImagePattern from "../Components/AuthImagePattern";
 import { Link } from "react-router-dom";
-import { signup } from "../store/slices/authslice";
+import { signup } from "../store/slices/authSlice";
 
 function Signup() {
   const [showPassword, setShowPassword] = useState(false);
