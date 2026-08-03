@@ -7,7 +7,7 @@ export const connectSocket = (userId) => {
 
   socket = io(
     import.meta.env.MODE === "development"
-      ? "http://localhost:5000" // backend socket server
+      ? "https://ai-integrated-chat-app-5.onrender.com" // backend socket server
       : "/",
     {
       query: { userId },
